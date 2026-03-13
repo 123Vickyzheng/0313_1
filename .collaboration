@@ -94,7 +94,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/删除123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:52:19.4482256Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123/删除123.json", "documents/logic/服务端逻辑/123/删除123.metadata.json", "documents/logic/服务端逻辑/123/删除123.refId.json", "documents/ref-object/GV28BXWE.json", "documents/ref-object/GV28BXWE.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "GV28BXWE"
 }, {
