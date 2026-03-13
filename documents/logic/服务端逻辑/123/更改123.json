@@ -1,0 +1,171 @@
+{
+  "id" : "OM4G1TRW",
+  "name" : "更改123",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "ANUY5586",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "PK66SUES"
+    }
+  } ],
+  "returnValues" : [ {
+    "id" : "I2KOLTL1",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "SLAD8ZWK",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "DO2GVRQF",
+      "name" : "更改123",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-update",
+      "content" : {
+        "entityType" : {
+          "typeId" : "PK66SUES"
+        },
+        "variable" : {
+          "type" : "variable",
+          "variable" : "ANUY5586"
+        },
+        "condition" : {
+          "conditionType" : 0,
+          "conditionItems" : [ {
+            "conditionType" : 2,
+            "conditionItems" : null,
+            "type" : 3,
+            "identifier" : "PK66SUES.NKJZG288",
+            "name" : "id",
+            "operator" : 0,
+            "value" : {
+              "type" : 6,
+              "identifier" : "ANUY5586.NKJZG288",
+              "name" : null
+            }
+          } ]
+        },
+        "returnTo" : {
+          "type" : "variable",
+          "variable" : "I2KOLTL1"
+        },
+        "propertyMappers" : [ {
+          "id" : "580200dd-7858-45e4-a60a-66fd0fa1e619",
+          "target" : {
+            "type" : "literal",
+            "literal" : "TQI2T7F7"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ANUY5586.TQI2T7F7"
+          }
+        }, {
+          "id" : "6fd85b7b-4f08-417e-ab66-d901cc6c1d6c",
+          "target" : {
+            "type" : "literal",
+            "literal" : "CQJ7D7AG"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ANUY5586.CQJ7D7AG"
+          }
+        }, {
+          "id" : "e74df4e0-f0c8-43a2-939e-c39fc217e37c",
+          "target" : {
+            "type" : "literal",
+            "literal" : "ZNBKH7FD"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ANUY5586.ZNBKH7FD"
+          }
+        }, {
+          "id" : "82e061c6-9542-40cd-8a91-fc91710587e7",
+          "target" : {
+            "type" : "literal",
+            "literal" : "M4TYDVZM"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ANUY5586.M4TYDVZM"
+          }
+        }, {
+          "id" : "305b886f-0403-432e-87c9-611468276899",
+          "target" : {
+            "type" : "literal",
+            "literal" : "FFUQ9LUZ"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ANUY5586.FFUQ9LUZ"
+          }
+        }, {
+          "id" : "5efc9882-837d-49ad-b85f-bc4a810d3a4a",
+          "target" : {
+            "type" : "literal",
+            "literal" : "JIG8XE09"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ANUY5586.JIG8XE09"
+          }
+        }, {
+          "id" : "f78ccece-b757-43ff-afa8-99401c02e482",
+          "target" : {
+            "type" : "literal",
+            "literal" : "W85NSTJ0"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ANUY5586.W85NSTJ0"
+          }
+        } ]
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "YFP2K757",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "RG7X328L",
+      "sourceId" : "SLAD8ZWK",
+      "targetId" : "DO2GVRQF",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "CUGJL1IM",
+      "sourceId" : "DO2GVRQF",
+      "targetId" : "YFP2K757",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

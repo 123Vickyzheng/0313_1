@@ -1,0 +1,165 @@
+{
+  "id" : "B0K09DFZ",
+  "name" : "创建123",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "ZV74O3D5",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "PK66SUES"
+    }
+  } ],
+  "returnValues" : [ {
+    "id" : "CHZKJWAV",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "BB3UNJ18",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "WFMDL8ME",
+      "name" : "创建123",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-insert",
+      "content" : {
+        "entityType" : {
+          "typeId" : "PK66SUES"
+        },
+        "variable" : {
+          "type" : "variable",
+          "variable" : "ZV74O3D5"
+        },
+        "returnTo" : {
+          "type" : "variable",
+          "variable" : "CHZKJWAV"
+        },
+        "propertyMappers" : [ {
+          "id" : "2901e8dc-8ab8-4b01-9d84-8af08dace9ad",
+          "target" : {
+            "type" : "literal",
+            "literal" : "TQI2T7F7"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.TQI2T7F7"
+          }
+        }, {
+          "id" : "d2fe24ea-7cdf-4349-a5ed-91fa544c6521",
+          "target" : {
+            "type" : "literal",
+            "literal" : "CQJ7D7AG"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.CQJ7D7AG"
+          }
+        }, {
+          "id" : "d6a9f6f0-4ada-40cd-9d9e-2efabfb1a536",
+          "target" : {
+            "type" : "literal",
+            "literal" : "ZNBKH7FD"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.ZNBKH7FD"
+          }
+        }, {
+          "id" : "1672f6a2-9c3e-4789-82c5-74564edc6044",
+          "target" : {
+            "type" : "literal",
+            "literal" : "M4TYDVZM"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.M4TYDVZM"
+          }
+        }, {
+          "id" : "d690452c-2cf2-4701-8e6c-fc23a870e506",
+          "target" : {
+            "type" : "literal",
+            "literal" : "FFUQ9LUZ"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.FFUQ9LUZ"
+          }
+        }, {
+          "id" : "0ec2f18c-9ca5-4a17-961f-d552772a0c49",
+          "target" : {
+            "type" : "literal",
+            "literal" : "JIG8XE09"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.JIG8XE09"
+          }
+        }, {
+          "id" : "33a4ac2a-8577-478d-94de-058d0517da92",
+          "target" : {
+            "type" : "literal",
+            "literal" : "W85NSTJ0"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.W85NSTJ0"
+          }
+        }, {
+          "id" : "7a1632af-7180-424c-81a7-5bdc4e0fedc7",
+          "target" : {
+            "type" : "literal",
+            "literal" : "NKJZG288"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "ZV74O3D5.NKJZG288"
+          }
+        } ]
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "FJ6NWP1V",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "AKNC1ZUY",
+      "sourceId" : "BB3UNJ18",
+      "targetId" : "WFMDL8ME",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "DQA0W4DO",
+      "sourceId" : "WFMDL8ME",
+      "targetId" : "FJ6NWP1V",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

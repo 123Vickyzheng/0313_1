@@ -1,0 +1,21 @@
+{
+  "id" : "OM4G1TRW",
+  "name" : "更改123",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "ANUY5586",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "PK66SUES"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "I2KOLTL1",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ]
+}

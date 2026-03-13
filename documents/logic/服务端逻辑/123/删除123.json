@@ -1,0 +1,96 @@
+{
+  "id" : "GV28BXWE",
+  "name" : "删除123",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "AFUEC6GE",
+    "name" : "主键",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "returnValues" : [ {
+    "id" : "YRZPD1PB",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "HJTHBKI1",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "PWDDYC4X",
+      "name" : "删除123",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-delete",
+      "content" : {
+        "entityType" : {
+          "typeId" : "PK66SUES"
+        },
+        "condition" : {
+          "conditionType" : 0,
+          "conditionItems" : [ {
+            "conditionType" : 2,
+            "conditionItems" : null,
+            "type" : 3,
+            "identifier" : "PK66SUES.NKJZG288",
+            "name" : "id",
+            "operator" : 0,
+            "value" : {
+              "type" : 6,
+              "identifier" : "AFUEC6GE",
+              "name" : null
+            }
+          } ]
+        },
+        "returnTo" : {
+          "type" : "variable",
+          "variable" : "YRZPD1PB"
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "XH3A8FGY",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "DV1HGN8K",
+      "sourceId" : "HJTHBKI1",
+      "targetId" : "PWDDYC4X",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "F5W5YH1J",
+      "sourceId" : "PWDDYC4X",
+      "targetId" : "XH3A8FGY",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "KRBAJA1M" : "每页条数",
+  "W4DP6PXU" : "跳过条数",
+  "PK66SUES" : "123",
+  "N3Y4FLGO" : "数据列表",
+  "TVLL0GBR" : "数据总行数",
+  "NKJZG288" : "id",
+  "TQI2T7F7" : "Integer",
+  "CQJ7D7AG" : "Decimal",
+  "ZNBKH7FD" : "Boolean",
+  "M4TYDVZM" : "String",
+  "FFUQ9LUZ" : "Date",
+  "JIG8XE09" : "Time",
+  "W85NSTJ0" : "DateTime",
+  "MNAH2Y7B" : "创建时间",
+  "HFPGRCBK" : "更新时间",
+  "MM9UZPUV" : "创建人",
+  "P3RSH7MI" : "更新人",
+  "VYIM710G" : "postgres数据源"
+}

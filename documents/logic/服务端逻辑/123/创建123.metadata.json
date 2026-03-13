@@ -1,0 +1,21 @@
+{
+  "id" : "B0K09DFZ",
+  "name" : "创建123",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "ZV74O3D5",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "PK66SUES"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "CHZKJWAV",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ]
+}

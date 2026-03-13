@@ -1,0 +1,171 @@
+{
+  "id" : "EHORNAWF",
+  "name" : "创建或更改123",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "R1PRDFTD",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "PK66SUES"
+    }
+  } ],
+  "returnValues" : [ ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "UPA2EFW1",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "I4KRUAWM",
+      "name" : "创建或更改123",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-upsert",
+      "content" : {
+        "entityType" : {
+          "typeId" : "PK66SUES"
+        },
+        "variable" : {
+          "type" : "variable",
+          "variable" : "R1PRDFTD"
+        },
+        "condition" : {
+          "conditionType" : 0,
+          "conditionItems" : [ {
+            "conditionType" : 2,
+            "conditionItems" : null,
+            "type" : 3,
+            "identifier" : "PK66SUES.NKJZG288",
+            "name" : "id",
+            "operator" : 0,
+            "value" : {
+              "type" : 6,
+              "identifier" : "R1PRDFTD.NKJZG288",
+              "name" : null
+            }
+          } ]
+        },
+        "propertyMappers" : [ {
+          "id" : "49972c97-0e5a-4a85-8661-4d13810e3bbd",
+          "target" : {
+            "type" : "literal",
+            "literal" : "TQI2T7F7"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.TQI2T7F7"
+          }
+        }, {
+          "id" : "65ce99b7-be7a-4c3b-85cf-b59bd480e487",
+          "target" : {
+            "type" : "literal",
+            "literal" : "CQJ7D7AG"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.CQJ7D7AG"
+          }
+        }, {
+          "id" : "dfd8f2d5-12cc-4aa6-a1ab-8666ab31a0ec",
+          "target" : {
+            "type" : "literal",
+            "literal" : "ZNBKH7FD"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.ZNBKH7FD"
+          }
+        }, {
+          "id" : "ac4134fc-7203-41c2-87fd-2074eaef74c1",
+          "target" : {
+            "type" : "literal",
+            "literal" : "M4TYDVZM"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.M4TYDVZM"
+          }
+        }, {
+          "id" : "4deb1c64-b366-4554-8621-ccd733df4a0e",
+          "target" : {
+            "type" : "literal",
+            "literal" : "FFUQ9LUZ"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.FFUQ9LUZ"
+          }
+        }, {
+          "id" : "803edc6a-57e4-4006-94be-554f1729167e",
+          "target" : {
+            "type" : "literal",
+            "literal" : "JIG8XE09"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.JIG8XE09"
+          }
+        }, {
+          "id" : "eee080e0-5b82-4233-8111-d6d51b65a06e",
+          "target" : {
+            "type" : "literal",
+            "literal" : "W85NSTJ0"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.W85NSTJ0"
+          }
+        }, {
+          "id" : "bb9298ac-b0f1-4329-b735-437b7d309c67",
+          "target" : {
+            "type" : "literal",
+            "literal" : "NKJZG288"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "R1PRDFTD.NKJZG288"
+          }
+        } ]
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "XQTKSPDV",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "IOXN6GSS",
+      "sourceId" : "UPA2EFW1",
+      "targetId" : "I4KRUAWM",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "AT1IYXIE",
+      "sourceId" : "I4KRUAWM",
+      "targetId" : "XQTKSPDV",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

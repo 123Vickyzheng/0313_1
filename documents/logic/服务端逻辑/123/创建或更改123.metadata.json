@@ -1,0 +1,15 @@
+{
+  "id" : "EHORNAWF",
+  "name" : "创建或更改123",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "R1PRDFTD",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "PK66SUES"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ ]
+}
