@@ -250,7 +250,13 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "postgres数据源/123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T08:28:07.4530337Z",
+  "resourcePaths" : [ "documents/entity/postgres数据源/123.json", "documents/entity/postgres数据源/123.metadata.json", "documents/entity/postgres数据源/123.refId.json", "documents/ref-object/PK66SUES.json", "documents/ref-object/PK66SUES.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "PK66SUES"
 }, {
