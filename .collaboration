@@ -94,7 +94,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑/获取登录配置",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:30:53.7781892Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/系统逻辑/获取登录配置.json", "documents/logic/服务端逻辑/系统逻辑/获取登录配置.metadata.json", "documents/logic/服务端逻辑/系统逻辑/获取登录配置.refId.json", "documents/ref-object/CF4304HA.json", "documents/ref-object/CF4304HA.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "CF4304HA"
 }, {
