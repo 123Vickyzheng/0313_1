@@ -178,13 +178,25 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:29:59.8032007Z",
+  "resourcePaths" : [ "documents/entity/默认数据源", "documents/entity/默认数据源/.f.metadata.json", "documents/entity/默认数据源/.f.json", "documents/ref-object/S0GHJRW1.json", "documents/ref-object/S0GHJRW1.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "S0GHJRW1"
 }, {
   "moduleType" : "entity",
   "moduleName" : "mysql84_数据源",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:29:59.8032007Z",
+  "resourcePaths" : [ "documents/entity/mysql84_数据源", "documents/entity/mysql84_数据源/.f.metadata.json", "documents/entity/mysql84_数据源/.f.json", "documents/ref-object/VKRYIX35.json", "documents/ref-object/VKRYIX35.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "VKRYIX35"
 }, {
