@@ -253,4 +253,40 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "XC58Y8J0"
+}, {
+  "moduleType" : "datasource",
+  "moduleName" : "postgres数据源",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:19:42.2492135Z",
+  "resourcePaths" : [ "documents/datasource/postgres数据源.json", "documents/datasource/postgres数据源.metadata.json", "documents/datasource/postgres数据源.refId.json", "documents/ref-object/VYIM710G.json", "documents/ref-object/VYIM710G.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "VYIM710G"
+}, {
+  "moduleType" : "entity",
+  "moduleName" : "postgres数据源",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:19:42.2492135Z",
+  "resourcePaths" : [ "documents/entity/postgres数据源", "documents/entity/postgres数据源/.f.metadata.json", "documents/entity/postgres数据源/.f.json", "documents/ref-object/VMQMBOW9.json", "documents/ref-object/VMQMBOW9.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "VMQMBOW9"
+}, {
+  "moduleType" : "entity-relation",
+  "moduleName" : "postgres数据源",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:19:42.2492135Z",
+  "resourcePaths" : [ "documents/entity-relation/postgres数据源", "documents/entity-relation/postgres数据源/.f.metadata.json", "documents/entity-relation/postgres数据源/.f.json", "documents/ref-object/TIGQ7WB2.json", "documents/ref-object/TIGQ7WB2.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "TIGQ7WB2"
 } ]
