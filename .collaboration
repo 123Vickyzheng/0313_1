@@ -10,16 +10,10 @@
   "resourceType" : "Unknow"
 }, {
   "moduleType" : "theme",
-  "moduleName" : "默认主题",
+  "moduleName" : "商务主题",
   "state" : "Unlocked",
   "resourceType" : "Document",
-  "resourceId" : "phoenix.builtin.normal"
-}, {
-  "moduleType" : "theme",
-  "moduleName" : "清新主题",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "phoenix.builtin.fresh"
+  "resourceId" : "phoenix.builtin.business"
 }, {
   "moduleType" : "theme",
   "moduleName" : "教育主题",
@@ -28,22 +22,28 @@
   "resourceId" : "phoenix.builtin.education"
 }, {
   "moduleType" : "theme",
+  "moduleName" : "暗色主题",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "phoenix.builtin.dark-night"
+}, {
+  "moduleType" : "theme",
+  "moduleName" : "清新主题",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "phoenix.builtin.fresh"
+}, {
+  "moduleType" : "theme",
   "moduleName" : "电商主题",
   "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.ecommerce"
 }, {
   "moduleType" : "theme",
-  "moduleName" : "商务主题",
+  "moduleName" : "默认主题",
   "state" : "Unlocked",
   "resourceType" : "Document",
-  "resourceId" : "phoenix.builtin.business"
-}, {
-  "moduleType" : "theme",
-  "moduleName" : "暗色主题",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "phoenix.builtin.dark-night"
+  "resourceId" : "phoenix.builtin.normal"
 }, {
   "moduleType" : "user-management",
   "moduleName" : "server-data/phoenix-server.phxdb",
@@ -73,6 +73,42 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "server"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/123",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "GCJCAKK3"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/123/创建123",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "B0K09DFZ"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/123/创建或更改123",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "EHORNAWF"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/123/删除123",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "GV28BXWE"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/123/更改123",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "OM4G1TRW"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/123/查询123",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "J88VD40R"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑",
@@ -176,6 +212,12 @@
   "resourceType" : "Document",
   "resourceId" : "WQCEQUPO"
 }, {
+  "moduleType" : "datasource",
+  "moduleName" : "postgres数据源",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "VYIM710G"
+}, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源",
   "state" : "Unlocked",
@@ -186,19 +228,37 @@
   "moduleName" : "mysql84_数据源",
   "state" : "Unlocked",
   "resourceType" : "Folder",
-  "resourceId" : "VKRYIX35"
+  "resourceId" : "O9QXSKC5"
+}, {
+  "moduleType" : "entity",
+  "moduleName" : "postgres数据源",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "VMQMBOW9"
+}, {
+  "moduleType" : "entity",
+  "moduleName" : "postgres数据源/123",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "PK66SUES"
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "默认数据源",
   "state" : "Unlocked",
   "resourceType" : "Folder",
-  "resourceId" : "F77RROVL"
+  "resourceId" : "BHPBZB2K"
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "mysql84_数据源",
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "CSDZJ311"
+}, {
+  "moduleType" : "entity-relation",
+  "moduleName" : "postgres数据源",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "TIGQ7WB2"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC",
@@ -213,12 +273,6 @@
   "resourceId" : "ZUZJ6OPV"
 }, {
   "moduleType" : "page",
-  "moduleName" : "PC/系统页面/登录页",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "IZFOC5Z3"
-}, {
-  "moduleType" : "page",
   "moduleName" : "PC/系统页面/401无权限页面",
   "state" : "Unlocked",
   "resourceType" : "Document",
@@ -229,6 +283,12 @@
   "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "SEFOZK2P"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "PC/系统页面/登录页",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "IZFOC5Z3"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/页面1",
@@ -253,58 +313,4 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "XC58Y8J0"
-}, {
-  "moduleType" : "datasource",
-  "moduleName" : "postgres数据源",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "VYIM710G"
-}, {
-  "moduleType" : "entity",
-  "moduleName" : "postgres数据源",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "VMQMBOW9"
-}, {
-  "moduleType" : "entity-relation",
-  "moduleName" : "postgres数据源",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "TIGQ7WB2"
-}, {
-  "moduleType" : "entity",
-  "moduleName" : "postgres数据源/123",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "PK66SUES"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/123",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "GCJCAKK3"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/123/创建123",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "B0K09DFZ"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/123/创建或更改123",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "EHORNAWF"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/123/更改123",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "OM4G1TRW"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/123/删除123",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "GV28BXWE"
 } ]
