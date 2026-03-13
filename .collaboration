@@ -82,25 +82,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑/登录",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:30:38.9683615Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/系统逻辑/登录.json", "documents/logic/服务端逻辑/系统逻辑/登录.metadata.json", "documents/logic/服务端逻辑/系统逻辑/登录.refId.json", "documents/ref-object/PTX4GP37.json", "documents/ref-object/PTX4GP37.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "PTX4GP37"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑/获取登录配置",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:30:53.7781892Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/系统逻辑/获取登录配置.json", "documents/logic/服务端逻辑/系统逻辑/获取登录配置.metadata.json", "documents/logic/服务端逻辑/系统逻辑/获取登录配置.refId.json", "documents/ref-object/CF4304HA.json", "documents/ref-object/CF4304HA.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "CF4304HA"
 }, {
@@ -190,25 +178,13 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:29:59.8032007Z",
-  "resourcePaths" : [ "documents/entity/默认数据源", "documents/entity/默认数据源/.f.metadata.json", "documents/entity/默认数据源/.f.json", "documents/ref-object/S0GHJRW1.json", "documents/ref-object/S0GHJRW1.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "S0GHJRW1"
 }, {
   "moduleType" : "entity",
   "moduleName" : "mysql84_数据源",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:29:59.8032007Z",
-  "resourcePaths" : [ "documents/entity/mysql84_数据源", "documents/entity/mysql84_数据源/.f.metadata.json", "documents/entity/mysql84_数据源/.f.json", "documents/ref-object/VKRYIX35.json", "documents/ref-object/VKRYIX35.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "VKRYIX35"
 }, {
@@ -280,109 +256,55 @@
 }, {
   "moduleType" : "datasource",
   "moduleName" : "postgres数据源",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:19:42.2492135Z",
-  "resourcePaths" : [ "documents/datasource/postgres数据源.json", "documents/datasource/postgres数据源.metadata.json", "documents/datasource/postgres数据源.refId.json", "documents/ref-object/VYIM710G.json", "documents/ref-object/VYIM710G.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "VYIM710G"
 }, {
   "moduleType" : "entity",
   "moduleName" : "postgres数据源",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:19:42.2492135Z",
-  "resourcePaths" : [ "documents/entity/postgres数据源", "documents/entity/postgres数据源/.f.metadata.json", "documents/entity/postgres数据源/.f.json", "documents/ref-object/VMQMBOW9.json", "documents/ref-object/VMQMBOW9.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "VMQMBOW9"
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "postgres数据源",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:19:42.2492135Z",
-  "resourcePaths" : [ "documents/entity-relation/postgres数据源", "documents/entity-relation/postgres数据源/.f.metadata.json", "documents/entity-relation/postgres数据源/.f.json", "documents/ref-object/TIGQ7WB2.json", "documents/ref-object/TIGQ7WB2.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "TIGQ7WB2"
 }, {
   "moduleType" : "entity",
   "moduleName" : "postgres数据源/123",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:23:04.6129497Z",
-  "resourcePaths" : [ "documents/entity/postgres数据源/123.json", "documents/entity/postgres数据源/123.metadata.json", "documents/entity/postgres数据源/123.refId.json", "documents/ref-object/PK66SUES.json", "documents/ref-object/PK66SUES.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "PK66SUES"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:24:22.6975195Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/123", "documents/logic/服务端逻辑/123/.f.metadata.json", "documents/logic/服务端逻辑/123/.f.json", "documents/ref-object/GCJCAKK3.json", "documents/ref-object/GCJCAKK3.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "GCJCAKK3"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/创建123",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:24:22.6975195Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/123/创建123.json", "documents/logic/服务端逻辑/123/创建123.metadata.json", "documents/logic/服务端逻辑/123/创建123.refId.json", "documents/ref-object/B0K09DFZ.json", "documents/ref-object/B0K09DFZ.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "B0K09DFZ"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/创建或更改123",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:24:22.6975195Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/123/创建或更改123.json", "documents/logic/服务端逻辑/123/创建或更改123.metadata.json", "documents/logic/服务端逻辑/123/创建或更改123.refId.json", "documents/ref-object/EHORNAWF.json", "documents/ref-object/EHORNAWF.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "EHORNAWF"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/更改123",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:24:22.6975195Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/123/更改123.json", "documents/logic/服务端逻辑/123/更改123.metadata.json", "documents/logic/服务端逻辑/123/更改123.refId.json", "documents/ref-object/OM4G1TRW.json", "documents/ref-object/OM4G1TRW.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "OM4G1TRW"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/删除123",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "vickyzheng",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-13T03:24:22.6975195Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/123/删除123.json", "documents/logic/服务端逻辑/123/删除123.metadata.json", "documents/logic/服务端逻辑/123/删除123.refId.json", "documents/ref-object/GV28BXWE.json", "documents/ref-object/GV28BXWE.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "GV28BXWE"
 } ]
