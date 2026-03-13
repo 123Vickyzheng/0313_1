@@ -82,7 +82,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑/登录",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:30:38.9683615Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/系统逻辑/登录.json", "documents/logic/服务端逻辑/系统逻辑/登录.metadata.json", "documents/logic/服务端逻辑/系统逻辑/登录.refId.json", "documents/ref-object/PTX4GP37.json", "documents/ref-object/PTX4GP37.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "PTX4GP37"
 }, {
