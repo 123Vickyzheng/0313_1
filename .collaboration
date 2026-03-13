@@ -76,7 +76,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:32:50.4447047Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123", "documents/logic/服务端逻辑/123/.f.metadata.json", "documents/logic/服务端逻辑/123/.f.json", "documents/ref-object/GCJCAKK3.json", "documents/ref-object/GCJCAKK3.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "GCJCAKK3"
 }, {
