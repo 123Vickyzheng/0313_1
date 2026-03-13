@@ -100,7 +100,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/更改123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:51:36.8901649Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123/更改123.json", "documents/logic/服务端逻辑/123/更改123.metadata.json", "documents/logic/服务端逻辑/123/更改123.refId.json", "documents/ref-object/OM4G1TRW.json", "documents/ref-object/OM4G1TRW.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "OM4G1TRW"
 }, {
