@@ -88,31 +88,61 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/创建123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:33:09.5221519Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123/创建123.json", "documents/logic/服务端逻辑/123/创建123.metadata.json", "documents/logic/服务端逻辑/123/创建123.refId.json", "documents/ref-object/B0K09DFZ.json", "documents/ref-object/B0K09DFZ.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "B0K09DFZ"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/创建或更改123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:33:09.5221519Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123/创建或更改123.json", "documents/logic/服务端逻辑/123/创建或更改123.metadata.json", "documents/logic/服务端逻辑/123/创建或更改123.refId.json", "documents/ref-object/EHORNAWF.json", "documents/ref-object/EHORNAWF.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "EHORNAWF"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/删除123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:33:09.5221519Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123/删除123.json", "documents/logic/服务端逻辑/123/删除123.metadata.json", "documents/logic/服务端逻辑/123/删除123.refId.json", "documents/ref-object/GV28BXWE.json", "documents/ref-object/GV28BXWE.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "GV28BXWE"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/更改123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:33:09.5221519Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123/更改123.json", "documents/logic/服务端逻辑/123/更改123.metadata.json", "documents/logic/服务端逻辑/123/更改123.refId.json", "documents/ref-object/OM4G1TRW.json", "documents/ref-object/OM4G1TRW.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "OM4G1TRW"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/123/查询123",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "vickyzheng",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-13T03:33:09.5221519Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/123/查询123.json", "documents/logic/服务端逻辑/123/查询123.metadata.json", "documents/logic/服务端逻辑/123/查询123.refId.json", "documents/ref-object/J88VD40R.json", "documents/ref-object/J88VD40R.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "J88VD40R"
 }, {
